@@ -1,0 +1,253 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header
+{
+    height: 80px;
+    width: 100%;
+    background-color:  #e9e9e9;
+    box-sizing: border-box;
+    padding: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.logo
+{
+    height: 50px;
+    width: 20%;
+    color: #06113C;
+    font-size: 25px;
+    font-family: calibri;
+    /* background-color: blue; */
+}
+
+.nav
+{
+    height: 50px;
+    width: 40%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-desc
+{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    color: #06113C;
+    font-family: segoe UI;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn
+{
+    height: 50px;
+    width: 13%;
+    background-color: #FF8C32;
+    border: 1px solid #FF8C32;
+    border-radius: 30px;
+    color: #06113C;
+    font-family: calibri;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* css for section  */
+
+.section
+{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #e9e9e9;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-content
+{
+    height: 500px;
+    width: 60%;
+    padding: 100px 10%;
+    /* background-color: aqua; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.pre
+{
+    font-size: 40px;
+    font-family: calibri;
+    width: 70%;
+    font-weight: bolder;
+    color: #06113C;
+}
+
+.par
+{
+    font-family: segoe UI;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #06113C;
+}
+
+.content-2
+{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.btn2
+{
+    padding: 10px 15px;
+    background-color: #FF8C32;
+    height: 50px;
+    width: 35%;
+    border: 1px solid #FF8C32;
+    border-radius: 60px;
+    color: #06113C;
+    font-family: segoe UI;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.link
+{
+    color: #06113C;
+    font-family: calibri;
+    font-weight: 800;
+}
+
+.section2
+{
+    height: 300px;
+    width: 25%;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+    /* background-color: #06113C; */
+    border-radius: 35px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.section-img
+{
+    height: 300px;
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: #FF8C32;
+    border-radius: 35px;
+    position: relative;
+}
+
+.image
+{
+    height: 300px;
+    width: 100%;
+    background-image: url(images/happy-free.png);
+    background-size: 200%;
+    padding-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.s-logo
+{
+    height: 60px;
+    width: 5%;
+    background-color: white;
+    position: absolute;
+    z-index: 8;
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 275px;
+}
+
+.desc
+{
+    height: 60px;
+    width: 70%;
+    background-color: #e9e9e9;
+    display: flex;
+}
+
+.pic
+{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.desc-img
+{
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    border: 3px solid white;
+}
+
+.desc-ing
+{
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    border: 3px solid white;
+    margin-right: 20px;
+}
+
+.desc-irg
+{
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    border: 3px solid white;
+}
+
+.text
+{
+    height: 50px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.fourk
+{
+    font-size: 25px;
+    font-family: calibri;
+}
+
+.text > p
+{
+    font-family: segoe UI;
+    font-size: 18px;
+}
+
+
+
+
+
